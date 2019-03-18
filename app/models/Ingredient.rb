@@ -1,11 +1,10 @@
 class Ingredient
 
-  attr_accessor :ingredient_name
-  
+  attr_accessor :name
+
   @@all = []
 
-  def initialize(ingredient_name)
-    @ingredient_name = ingredient_name
+  def initialize
     @@all << self
   end
 
